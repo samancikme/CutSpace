@@ -1,0 +1,18 @@
+.btn{
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.btn:active{
+    transform: scale(0.8);
+    transition: all .5s ease-in-out;
+}
+
+.btn-orange{
+    background-color: #F78434;
+    color: white;
+}
+.btn-white{
+    background-color: white;
+    color:#F78434;
+}

@@ -1,0 +1,42 @@
+#whochoice{
+    margin: 30px 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        .title{
+            color: #323232;
+           
+            h1{
+                font-size: 42px;
+                font-weight: 700;
+            }
+        }
+        .cards{
+            padding: 30px 0;
+            display: grid;
+            grid-template-columns: repeat(4 ,1fr);
+            gap: 30px;
+            .card{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                img{
+                    max-width: 100%;
+                }
+
+                .textbar{
+                    h2{
+                        font-size: 28px;
+                        font-weight: 700;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}

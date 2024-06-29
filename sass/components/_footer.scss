@@ -1,0 +1,57 @@
+footer{
+    padding: 90px 0;
+    color: #323232;
+    .container{
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+
+            .left{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                .icons{
+                    margin-top: 25px;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 20px;
+                }
+            }
+
+
+            .right{
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                // gap: 50px;
+                h1{
+                    font-size: 21px;
+                    font-weight: 700;
+                }
+                nav{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    ul{
+                    display: flex;
+                    gap: 12px;
+                    flex-direction: column;
+                    }
+                    a{
+                        font-size: 14px;
+                        font-weight: 400; 
+                    }
+                }
+            }
+        }
+    }
+}

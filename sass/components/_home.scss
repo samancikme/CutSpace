@@ -1,0 +1,52 @@
+#home{
+    .container{
+        .home-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &--left{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 42px;
+                .textbar{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px; 
+                    color: #323232;
+                    h1{
+                        font-size: 48px;
+                        font-weight: 700;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+
+                .input{
+                    input{
+                        padding: 18px ;
+                        border: 1px solid transparent;
+                        border-radius: 20px;
+                    }
+                    .btn-orange{
+                        font-size: 16px;
+                        font-weight: 700;
+                        padding: 18px 40px;
+                        border-radius: 20px;
+                    }
+
+                }
+            }
+
+            &--right{
+                flex: 1;
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

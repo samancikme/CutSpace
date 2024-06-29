@@ -1,0 +1,89 @@
+#services{
+    padding: 50px 0;
+    .container{
+        .services-content{
+            .cards{
+                display: grid;
+                grid-template-columns: repeat(2 , 1fr);
+                gap: 30px;
+                justify-content: center;
+                .card{
+                    border: 1px solid rgba(0, 0, 0 , 90%) ;
+                    border-radius: 10px;
+                    text-align: center;
+                    padding: 40px 85px;
+                    
+
+                    .textbar{
+                        margin-top: 15px;
+                        gap: 5px;
+                        color: #323232;
+                        h1{
+                            font-size: 42px;
+                            font-weight: 700;
+                        }
+                        p{
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .btn{
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #F78434;
+                        padding: 18px 40px;
+                        border-radius: 20px;
+                        margin-top: 25px;
+                    }
+                    
+                }
+                .card-1{
+                    .one{
+                        display: none;
+                        margin-left: 42%;
+                    }
+
+                    &:hover{
+                        background-color: #F78434;
+                        .textbar{
+                            color: white;
+                        }
+                        .one{
+                            // display: block;
+                            justify-content: center;
+                            align-items: center;
+                            display: flex;
+                        }
+
+                        .two{
+                            display: none;
+                        }
+                        .btn-1{
+                            color: #F78434;
+                        }
+                    }
+                }
+                .card-2{
+                    .two{
+                        display: none;
+                        margin-left: 42%;
+                    }
+
+                    &:hover{
+                        background-color: #F78434;
+                        .one{
+                            display:none;
+                        }
+                        .two{
+                            display: block;
+                        }
+                        .textbar{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
